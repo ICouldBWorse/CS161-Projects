@@ -1,0 +1,7 @@
+The word guessing game I would like to make is a game based on Wheel of Fortune and Hangman. The program would start by printing the rules
+to the console for the player to read, and then asking them to type "y" if they are ready to continue. Once the user types "y", the program 
+will randomly select a word from a list of 10-20 words. The user starts with $1000. Then it will ask the user to "spin" by typing "spin".
+If spin is typed, the program will select a random amount of money between two bounds. It will then print this amount and it will print and an 
+x for each letter in the word. After, it will ask the user to guess a character. If the character appears in the word, the user gets the 
+listed amount of money for each charater they get right. If a player gets one wrong, then they loose $500. If they run out of money before they
+finish the word then they loose. 
