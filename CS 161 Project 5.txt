@@ -1,0 +1,42 @@
+﻿This is the first half of part 1. The first image is the code, and the second image is the output. Each part of the code has a comment explaining the basic list function/method used. I chose to start with a list of random numbers, then I added a number, inserted a number, changed a number, removed a number given that number, removed a number given its index,  and found the index of a given number in that list. Next, I created a list mean calculator by running a for loop for the length of the list and adding all of the terms within the list. Then I divided it by the length of the list.
+
+
+  
+
+
+
+  
+
+
+
+The program I designed and implemented takes ten inputs(the length of each of your fingers), and then determines the max, min, average, and total of the list. Then I took the index value of the longest and shortest length, and matched that with the index value of the list of finger names. I then printed this information. Commented out is a list of made-up finger lengths for you to copy and paste if you would like.
+
+
+  
+
+  
+
+Tuples can be created and indexed but not changed in any way. So I showed the methods to create a tuple and index one. I also created a function to find the average of the number in a tuple. The output shows the printed results of this code.
+
+
+  
+
+  
+
+This is a program that does the same task as my list finger counter, but this time uses tuples. The only part where I skirted the tuple rules was when I took an input as a string, then broke it into a LIST, turned the elements of the list to floats, and then turned the list of floats into a tuple. This had to be done this way because I could not change each element of the tuple into floats.
+
+
+
+
+  
+
+  
+
+This is for part 3, and it is a function that takes in a list and a tuple as arguments. In short, it is just a random lottery function. It then randomly selects a winner and an amount of money. It prints the results. 
+
+
+  
+
+  
+
+This is part 4. I have a list of my favorite food and ask the user to guess something on that list. If that exists within the list it returns true. If it doesn’t, then it prints that it’s not my favorite food. It is comprehending what is in the list and comparing it to an outside value.
